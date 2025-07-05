@@ -1,5 +1,5 @@
+/* eslint-disable no-unused-vars */
 import { useDispatch, useSelector } from "react-redux";
-import styles from './Room.css';
 import { Box, Button, Text, Input, VStack, HStack, Flex } from '@chakra-ui/react';
 import { useState, useEffect, useRef } from "react";
 import { useParams } from "react-router-dom";
