@@ -1,0 +1,156 @@
+.chatroom-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px 16px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .chatroom-card {
+    background: white;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    width: 100%;
+  }
+  
+  .chatroom-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: teal;
+    margin-bottom: 8px;
+  }
+  
+  .chatroom-subtitle {
+    color: #2c7a7b;
+  }
+  
+  .chatroom-input {
+    border-radius: 9999px;
+    background: #e6fffa;
+  }
+  
+  .chatroom-btn {
+    font-weight: 600;
+    border-radius: 9999px;
+  }
+  
+  .chatroom-wrapper {
+    height: 100vh;
+    background: #e6fffa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .chatroom-box {
+    height: 70vh;
+    width: 75%;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .chatroom-header {
+    background: teal;
+    color: white;
+    padding: 16px;
+  }
+  
+  .chatroom-avatar {
+    width: 40px;
+    height: 40px;
+    background: #285e61;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .chatroom-room {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .chatroom-status {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  .chatroom-msgcount {
+    background: #234e52;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .chatroom-messages {
+    background: #f0fdfa;
+    overflow-y: auto;
+    flex-grow: 1;
+    padding: 16px;
+  }
+  
+  .chatroom-messages::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  .chatroom-username {
+    font-size: 12px;
+    color: teal;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 4px;
+  }
+  
+  .chatroom-bubble {
+    padding: 8px 12px;
+    border-radius: 24px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .chatroom-bubble.mine {
+    background: teal;
+    color: white;
+  }
+  
+  .chatroom-bubble.theirs {
+    background: white;
+    color: black;
+  }
+  
+  .chatroom-scrollbtn {
+    position: absolute;
+    bottom: 130px;
+    right: 20px;
+    z-index: 10;
+  }
+
+  .send-wrapper{
+    width: 100%; 
+  }
+  
+  .chatroom-inputbox {
+    background: white;
+    padding: 16px;
+    border-top: 1px solid #2c7a7b;
+    display: flex;
+    width: 100%; 
+    align-items: center;
+  }
+  
+  .chatroom-sendbtn {
+    background: #234e52;
+    color: white;
+    font-weight: 600;
+    border-radius: 9999px;
+  }
+  
